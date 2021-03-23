@@ -2,7 +2,7 @@ package conta;
 
 public class GuardadorDeContas {
 
-    private Conta[] referencias;
+    private final Conta[] referencias;
     private int posicaoLivre;
 
     public GuardadorDeContas() {
