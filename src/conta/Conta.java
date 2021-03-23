@@ -55,4 +55,13 @@ public abstract class Conta {
     public void deposito (double valor) {
         this.saldo += valor;
     }
+
+    @Override
+    public String toString() {
+        return "Conta{" +
+                "saldo=" + saldo +
+                ", numero=" + numero +
+                ", agencia=" + agencia +
+                '}';
+    }
 }
