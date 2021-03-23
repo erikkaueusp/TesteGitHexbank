@@ -28,7 +28,13 @@ public class Teste {
         lista.add(cc3);
 
         Conta cc4 = new ContaCorrente(33, 322);
+        Conta cc5 = new ContaCorrente(35, 322);
         lista.add(cc4);
+
+        boolean existe = lista.contains(cc5); //novo
+
+        System.out.println("Já existe? " + existe);
+
 
         for(int i = 0; i < lista.size(); i++) {
             Object oRef = lista.get(i);
