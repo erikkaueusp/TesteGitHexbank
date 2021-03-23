@@ -3,8 +3,8 @@ package conta;
 public abstract class Conta {
 
     private double saldo;
-    private double numero;
-    private double agencia;
+    private int numero;
+    private int agencia;
 
 
 // Getters And Setters
@@ -81,4 +81,7 @@ public abstract class Conta {
         return true;
     }
 
+    public void deposita(double v) {
+        this.saldo += v;
+    }
 }
