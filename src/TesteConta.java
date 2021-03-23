@@ -2,7 +2,7 @@ import conta.ContaCorrente;
 import conta.ContaPoupanca;
 import conta.GuardadorDeContas;
 
-public class TesteCOnta {
+public class TesteConta {
 
 
     public static void main(String[] args) {
