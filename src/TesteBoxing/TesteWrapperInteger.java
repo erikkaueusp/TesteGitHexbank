@@ -1,4 +1,4 @@
-package TesteBoxing
+package TesteBoxing;
 
 import java.util.ArrayList;
 import java.util.List;
